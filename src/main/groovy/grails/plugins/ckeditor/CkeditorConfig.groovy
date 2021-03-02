@@ -17,7 +17,6 @@
 package grails.plugins.ckeditor
 
 import grails.util.Holders
-import org.apache.log4j.Logger
 import grails.plugins.ckeditor.utils.PluginUtils
 import grails.plugins.ckeditor.utils.PathUtils
 import grails.plugins.ckeditor.exceptions.UnknownOptionException
@@ -27,8 +26,6 @@ import org.apache.commons.lang.WordUtils
  * @author Stefano Gualdi <stefano.gualdi@gmail.com>
  */
 class CkeditorConfig {
-
-    private final Logger log = Logger.getLogger(getClass())
 
     static final REQUEST_CONFIG = "ckeditor.plugin.config"
 

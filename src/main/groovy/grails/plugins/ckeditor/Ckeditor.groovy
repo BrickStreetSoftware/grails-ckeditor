@@ -16,15 +16,10 @@
 
 package grails.plugins.ckeditor
 
-import org.apache.log4j.Logger
-
 /**
  * @author Stefano Gualdi <stefano.gualdi@gmail.com>
  */
-
 class Ckeditor {
-
-    private final Logger log = Logger.getLogger(getClass())
 
     def config
     def initialValue
