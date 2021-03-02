@@ -12,7 +12,8 @@ if (bintrayProperties.exists()) {
     user = project.bintrayUsername
     key = project.bintrayApiKey
 
-    githubSlug = 'stefanogualdi/grails-ckeditor'
+    githubSlug = 'BrickStreetSoftware/grails-ckeditor'
+	websiteUrl = ''
 
     license {
       name = 'Apache-2.0'
@@ -41,7 +42,7 @@ if (githubProperties.exists()) {
   }
 
   githubPages {
-    repoUri = 'https://github.com/stefanogualdi/grails-ckeditor.git'
+	repoUri = 'https://github.com/BrickStreetSoftware/grails-ckeditor.git'
 
     credentials {
       username = project.hasProperty('githubApiKey') ? project.githubApiKey : ''
