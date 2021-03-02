@@ -13,7 +13,7 @@ if (bintrayProperties.exists()) {
     key = project.bintrayApiKey
 
     githubSlug = 'BrickStreetSoftware/grails-ckeditor'
-	websiteUrl = ''
+	websiteUrl = 'http://foo.com/myplugin'
 
     license {
       name = 'Apache-2.0'
