@@ -16,7 +16,7 @@
 
 package grails.plugins.ckeditor
 
-import org.apache.log4j.Logger
+import org.apache.logging.log4j.Logger
 
 /**
  * @author Stefano Gualdi <stefano.gualdi@gmail.com>

@@ -17,7 +17,7 @@
 package grails.plugins.ckeditor
 
 import grails.util.Holders
-import org.apache.log4j.Logger
+import org.apache.logging.log4j.Logger
 import grails.plugins.ckeditor.utils.PluginUtils
 import grails.plugins.ckeditor.utils.PathUtils
 import grails.plugins.ckeditor.exceptions.UnknownOptionException
